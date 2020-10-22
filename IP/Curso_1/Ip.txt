@@ -1,0 +1,27 @@
+¿Cuántas veces se escribiría el carácter 'x' al ejecutar el siguiente programa?
+
+int main(){
+
+   int i;
+
+   i = 5;
+
+   while ( i <= 10){
+
+       if (i % 2  == 0)    -> Cuando el resto es igual a 0 se cumple la condicion, Cuando no se cumple pasa al siguiente nº       
+
+            cout <<  'x';
+
+       i = i + 1;
+
+   }
+
+   return 0;
+
+}
+Seleccione una:
+a. 0
+b. 3 correcta
+c. 6
+d. El programa no acaba
+
