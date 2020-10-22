@@ -1,0 +1,11 @@
+19:15:38 **** Incremental Build of configuration Debug for project nuevo ****
+make all 
+Building file: ../src/nuevo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/nuevo.d" -MT"src/nuevo.o" -o "src/nuevo.o" "../src/nuevo.cpp"
+/bin/sh: 1: g++: not found
+make: *** [src/subdir.mk:20: src/nuevo.o] Error 127
+"make all" terminated with exit code 2. Build might be incomplete.
+
+19:15:39 Build Failed. 1 errors, 0 warnings. (took 772ms)
+

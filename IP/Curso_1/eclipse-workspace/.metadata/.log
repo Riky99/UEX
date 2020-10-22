@@ -1,0 +1,951 @@
+!SESSION 2020-09-21 18:51:55.495 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:35.995
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.024
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.055
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.066
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.109
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.124
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.135
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 18:56:36.157
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 18:56:36.958
+!MESSAGE Indexed 'nuevo' (1 sources, 0 headers) in 0,209 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.467
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.472
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.497
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.505
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.698
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.702
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.740
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:12:33.747
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 19:12:33.770
+!MESSAGE Indexed 'circunferencia' (1 sources, 0 headers) in 0,056 sec: 4 declarations; 8 references; 1 unresolved inclusions; 0 syntax errors; 8 unresolved names (40 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.560
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.563
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.569
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.576
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 19:14:36.594
+!MESSAGE Indexed 'nuevo1' (1 sources, 0 headers) in 0,007 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.595
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.599
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.605
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:14:36.614
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:20:48.625
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:20:48.640
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:20:48.652
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:20:48.669
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 19:20:48.671
+!MESSAGE Indexed 'circunferencia' (1 sources, 0 headers) in 0,026 sec: 4 declarations; 8 references; 1 unresolved inclusions; 0 syntax errors; 8 unresolved names (40 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.825
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.829
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.833
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.835
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.852
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.855
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.861
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:27:04.864
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 19:27:04.883
+!MESSAGE Indexed 'Celsius a Fahrenheit' (1 sources, 0 headers) in 0,007 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.944
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.947
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.952
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.957
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.976
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:55.992
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:56.003
+!MESSAGE Error: Cannot run program "gcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "gcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 19:43:56.013
+!MESSAGE Indexed 'MInutos' (1 sources, 0 headers) in 0,016 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-21 19:43:56.016
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:99)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:190)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:799)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:727)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:592)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:518)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-09-28 18:42:18.998 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-28 18:44:50.124
+!MESSAGE Indexed 'notafinal' (1 sources, 0 headers) in 0,104 sec: 13 declarations; 17 references; 1 unresolved inclusions; 0 syntax errors; 14 unresolved names (32 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-28 18:47:20.594
+!MESSAGE Indexed 'funciones' (1 sources, 0 headers) in 0,048 sec: 6 declarations; 8 references; 4 unresolved inclusions; 0 syntax errors; 108 unresolved names (89 %)
+!SESSION 2020-09-28 19:21:49.897 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-28 19:42:05.151
+!MESSAGE Indexed 'ecuacion_2grado' (1 sources, 0 headers) in 0,098 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+!SESSION 2020-10-05 14:15:54.373 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 14:21:38.877
+!MESSAGE Indexed 'Aforo' (1 sources, 180 headers) in 7,9 sec: 13.765 declarations; 21.668 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0,017 %)
+
+!ENTRY org.eclipse.ui 4 0 2020-10-05 15:46:57.695
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.launchbar.ui.internal.dialogs.NewLaunchConfigEditPage.performFinish(NewLaunchConfigEditPage.java:111)
+	at org.eclipse.launchbar.ui.NewLaunchConfigWizard.performFinish(NewLaunchConfigWizard.java:90)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.launchbar.ui.controls.internal.ConfigSelector$3.mouseUp(ConfigSelector.java:182)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2020-10-05 15:46:59.674
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.launchbar.ui.internal.dialogs.NewLaunchConfigEditPage.performFinish(NewLaunchConfigEditPage.java:111)
+	at org.eclipse.launchbar.ui.NewLaunchConfigWizard.performFinish(NewLaunchConfigWizard.java:90)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.launchbar.ui.controls.internal.ConfigSelector$3.mouseUp(ConfigSelector.java:182)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2020-10-05 15:47:01.182
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.launchbar.ui.internal.dialogs.NewLaunchConfigEditPage.performFinish(NewLaunchConfigEditPage.java:111)
+	at org.eclipse.launchbar.ui.NewLaunchConfigWizard.performFinish(NewLaunchConfigWizard.java:90)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.launchbar.ui.controls.internal.ConfigSelector$3.mouseUp(ConfigSelector.java:182)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5745)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5013)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2020-10-05 18:48:30.224 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 18:51:20.937
+!MESSAGE Indexed 'factorial' (1 sources, 0 headers) in 0,198 sec: 10 declarations; 27 references; 1 unresolved inclusions; 0 syntax errors; 19 unresolved names (34 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 18:51:45.920
+!MESSAGE Indexed 'raices' (1 sources, 0 headers) in 0,082 sec: 28 declarations; 69 references; 2 unresolved inclusions; 0 syntax errors; 80 unresolved names (45 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 19:19:25.025
+!MESSAGE Indexed 'Divisores de un nº' (1 sources, 0 headers) in 0,039 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+!SESSION 2020-10-18 15:48:58.749 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-18 17:33:13.376
+!MESSAGE Indexed 'n_catalan' (1 sources, 180 headers) in 6,54 sec: 13.765 declarations; 21.668 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0,017 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-18 20:51:17.483
+!MESSAGE Indexed 'NºCatalan' (1 sources, 0 headers) in 0,027 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75 %)
+!SESSION 2020-10-19 18:33:32.906 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-19 18:35:53.576
+!MESSAGE Indexed 'combinatorio' (1 sources, 0 headers) in 0,233 sec: 16 declarations; 47 references; 1 unresolved inclusions; 0 syntax errors; 57 unresolved names (48 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-19 19:12:11.545
+!MESSAGE Indexed 'parametros' (1 sources, 180 headers) in 4,66 sec: 13.779 declarations; 21.727 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0,017 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-19 19:14:52.927
+!MESSAGE Indexed 'SophieGermain' (1 sources, 180 headers) in 3,74 sec: 13.779 declarations; 21.819 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0,017 %)

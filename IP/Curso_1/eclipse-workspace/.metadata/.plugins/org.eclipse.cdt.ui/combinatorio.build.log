@@ -1,0 +1,15 @@
+19:11:22 **** Incremental Build of configuration Debug for project combinatorio ****
+make all 
+Building file: ../src/combinatorio.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/combinatorio.d" -MT"src/combinatorio.o" -o "src/combinatorio.o" "../src/combinatorio.cpp"
+Finished building: ../src/combinatorio.cpp
+ 
+Building target: combinatorio
+Invoking: GCC C++ Linker
+g++  -o "combinatorio"  ./src/combinatorio.o   
+Finished building target: combinatorio
+ 
+
+19:11:23 Build Finished. 0 errors, 0 warnings. (took 1s.321ms)
+

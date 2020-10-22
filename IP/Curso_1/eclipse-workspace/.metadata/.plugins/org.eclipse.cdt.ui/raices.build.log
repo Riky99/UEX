@@ -1,0 +1,6 @@
+19:22:23 **** Incremental Build of configuration Debug for project raices ****
+make all 
+make: No se hace nada para 'all'.
+
+19:22:23 Build Finished. 0 errors, 0 warnings. (took 770ms)
+
