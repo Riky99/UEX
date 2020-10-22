@@ -1,0 +1,179 @@
+//============================================================================
+// Name        : SophieGermain.cpp
+// Author      : Profesorado de IP/FP
+// Version     : 00
+// Description : A partir del problema de examen de enero de 2019
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+// PRE = {n>0}
+// POST = {devuelve true si n es primo y false en caso contrario}
+bool esPrimo (int n) {
+	//TODO Implementar
+	//Ahora devuelve true siempre para que compile sin errores
+	int cont, i;
+	cont = 0;
+
+	for (i=1; i<=n; i++) {
+
+		if(n % 2 == 0){
+
+			cont = cont + 1;
+		}
+
+	}
+	return (cont == 2);
+}
+
+// Pruebas esPrimo
+//	n		valor devuelto
+//	1		false
+//	2		true
+//	6		false
+//	13		true
+//	100		false
+void pr_esPrimo() {
+	cout << "Inicio - esPrimo"<<endl;
+	if (esPrimo(1)!= false)
+		cout << "Error en prueba 1"<<endl;
+	if (esPrimo(2)!= true)
+			cout << "Error en prueba 2"<<endl;
+	if (esPrimo(11)!= false)
+			cout << "Error en prueba 6"<<endl;
+	if (esPrimo(13)!= true)
+			cout << "Error en prueba 13"<<endl;
+	if (esPrimo(100)!= false)
+			cout << "Error en prueba 100"<<endl;
+	cout << "Fin    - esPrimo"<<endl;
+}
+
+
+// PRE = {n>0}
+// POST = {devuelve true si n es un primo de Sophie Germain y false en caso contrario}
+bool esDeGermain (int n) {
+	//TODO Implementar
+	//Ahora devuelve true siempre para que compile sin errores
+
+	esPrimo (n);
+	esPrimo (2 * n + 1);
+
+	return true;
+}
+
+
+// Pruebas esDeGermain
+//	n		valor devuelto
+//	2		true
+//	11 		true
+//	23		true
+//	13		false - primo
+//  19      false - primo
+//	1		false - no primo
+//  8		false - no primo
+//  100		false - no primo
+void pr_esDeGermain() {
+	cout << "Inicio - esDeGermain"<<endl;
+	if (esDeGermain(2)!= true)
+			cout << "Error en prueba 2"<<endl;
+	if (esDeGermain(11)!= true)
+			cout << "Error en prueba 11"<<endl;
+	if (esDeGermain(23)!= true)
+			cout << "Error en prueba 23"<<endl;
+	if (esDeGermain(6)!= false)
+			cout << "Error en prueba 6"<<endl;
+	if (esDeGermain(13)!= false)
+			cout << "Error en prueba 13"<<endl;
+	if (esDeGermain(19)!= false)
+			cout << "Error en prueba 19"<<endl;
+	if (esDeGermain(1)!= false)
+			cout << "Error en prueba 1"<<endl;
+	if (esDeGermain(8)!= false)
+			cout << "Error en prueba 8"<<endl;
+	if (esDeGermain(100)!= false)
+			cout << "Error en prueba 100"<<endl;
+	cout << "Fin    - esDeGermain"<<endl;
+}
+
+// PRE = {a>0, b>0, a<=b}
+// POST = {devuelve el número de primos de Sophie Germain que hay en el intervalo [a, b]}
+int cuantos (int a, int b) {
+	//TODO Implementar
+	//Ahora devuelve -1 siempre para que compile sin errores
+	cout << "introduce el primer numero"<<endl;
+		cin >> a;
+	cout << "Introduce el segundo numero"<<endl;
+		cin >> b;
+
+		for () {
+			esPrimo(n);
+		}
+	return true;
+}
+
+// Pruebas cuantos
+//	a	b	valor devuelto
+//	5	40	4
+//	12	21	0
+//	41	41	1
+//	1	53	8
+void pr_cuantos() {
+	cout << "Inicio - cuantos"<<endl;
+	if (cuantos(5, 40)!= 4)
+			cout << "Error en prueba 5 40"<<endl;
+	if (cuantos(12, 21)!= 0)
+			cout << "Error en prueba 12 21"<<endl;
+	if (cuantos(41, 41)!= 1)
+			cout << "Error en prueba 41 41"<<endl;
+	if (cuantos(1, 53)!= 8)
+			cout << "Error en prueba 1 53"<<endl;
+	cout << "Fin    - cuantos"<<endl;
+}
+
+
+// PRE = {x>0}
+// POST = {devuelve el primer primo de Shopie Germain mayor o igual que x}
+int primeroMayor (int x) {
+	//TODO Implementar
+	//Ahora devuelve -1 siempre para que compile sin errores
+
+
+	return -1;
+}
+
+
+// Pruebas primeroMayor
+//	x	valor devuelto
+//	1	2
+//	8	11
+//	12	23
+//	23	23
+
+void pr_primeroMayor() {
+	cout << "Inicio - primeroMayor"<<endl;
+	if (primeroMayor(1)!= 2)
+			cout << "Error en prueba 1"<<endl;
+	if (primeroMayor(8)!= 11)
+				cout << "Error en prueba 8"<<endl;
+	if (primeroMayor(12)!= 23)
+				cout << "Error en prueba 12"<<endl;
+	if (primeroMayor(23)!= 23)
+				cout << "Error en prueba 23"<<endl;
+	cout << "Fin    - primeroMayor"<<endl;
+}
+
+
+void pruebas() {
+	cout << "Inicio de todas las pruebas"<<endl;
+	pr_esPrimo();
+	pr_esDeGermain();
+	pr_cuantos();
+	pr_primeroMayor();
+	cout << "Fin de todas las pruebas"<<endl;
+}
+
+int main() {
+	pruebas();
+	return 0;
+}

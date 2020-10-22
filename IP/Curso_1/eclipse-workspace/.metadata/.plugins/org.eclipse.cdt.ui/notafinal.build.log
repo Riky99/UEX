@@ -1,0 +1,6 @@
+15:46:01 **** Incremental Build of configuration Debug for project notafinal ****
+make all 
+make: No se hace nada para 'all'.
+
+15:46:02 Build Finished. 0 errors, 0 warnings. (took 770ms)
+

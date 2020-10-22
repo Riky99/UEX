@@ -1,0 +1,136 @@
+//============================================================================
+// Name        : combinatorio.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+// PRE = {n >= 0}
+// POST = {devuelve el factorial de n
+int factorial (int n) {
+	int f; // acumulador
+	int i; // índice
+
+	f = 1;
+	i = 1;
+	while (i <= n) {
+		f = f * i;
+		i = i + 1;
+	}
+	return f;
+}
+
+void pr_factorial (void) {
+	cout << "factorial - inicio"<<endl;
+	// 0! es 1
+	if (factorial(0)!=1)
+		cout << "Error al calcular factorial de 0"<<endl;
+
+	// 1! es 1
+	if (factorial(1)!=1)
+		cout << "Error al calcular factorial de 1"<<endl;
+
+	// 2! es 2
+	if (factorial(2)!=2)
+		cout << "Error al calcular factorial de 2"<<endl;
+
+	// 5! es 120
+	if (factorial(5)!=120)
+		cout << "Error al calcular factorial de 5"<<endl;
+
+	//10! es 3628800
+	if (factorial(10)!=3628800)
+		cout << "Error al calcular factorial de 10"<<endl;
+
+	//20! es 2432902008176640000
+	if (factorial(20)!=2432902008176640000)
+		cout << "Error al calcular factorial de 20"<<endl;
+
+	cout << "factorial - fin"<<endl;
+}
+
+// PRE = {n>=0, 0 <= m <= n}
+// POST = {devuelve el coeficiente binomial (n sobre m)}
+int combinatorio (int n, int m) {
+	int comb; // temporal
+	comb = factorial(n) / (factorial(m) * factorial(n-m));
+	return comb;
+}
+
+void pr_combinatorio (void) {
+	cout << "combinatorio - inicio"<<endl;
+	// (0 sobre 0) es 1
+	if (combinatorio(0,0)!=1)
+		cout << "Error al calcular combinatorio(0,0)"<<endl;
+
+	// (1 sobre 0) es 1
+	if (combinatorio(1,0)!=1)
+		cout << "Error al calcular combinatorio(1,0)"<<endl;
+
+	// (1 sobre 1) es 1
+	if (combinatorio(1,1)!=1)
+		cout << "Error al calcular combinatorio(1,1)"<<endl;
+
+	// (7 sobre 0) es 1
+	if (combinatorio(7,0)!=1)
+		cout << "Error al calcular combinatorio(7,0)"<<endl;
+
+	// (7 sobre 1) es 7
+	if (combinatorio(7,1)!=7)
+		cout << "Error al calcular combinatorio(7,1)"<<endl;
+
+	// (7 sobre 2) es 21
+	if (combinatorio(7,2)!=21)
+		cout << "Error al calcular combinatorio(7,2)"<<endl;
+
+	// (7 sobre 3) es 35
+	if (combinatorio(7,3)!=35)
+		cout << "Error al calcular combinatorio(7,3)"<<endl;
+
+	// (7 sobre 4) es 35
+	if (combinatorio(7,4)!=35)
+		cout << "Error al calcular combinatorio(7,4)"<<endl;
+
+	// (7 sobre 5) es 21
+	if (combinatorio(7,5)!=21)
+		cout << "Error al calcular combinatorio(7,5)"<<endl;
+
+	// (7 sobre 6) es 7
+	if (combinatorio(7,6)!=7)
+		cout << "Error al calcular combinatorio(7,6)"<<endl;
+
+	// (7 sobre 7) es 1
+	if (combinatorio(7,7)!=1)
+		cout << "Error al calcular combinatorio(7,7)"<<endl;
+
+	cout << "combinatorio - fin"<<endl;
+}
+
+
+ void pruebas() {
+	 cout << "PRUEBAS - inicio"<<endl;
+	 pr_factorial();
+	 pr_combinatorio();
+	 cout << "PRUEBAS - fin"<<endl;
+ }
+
+
+int main() {
+	pruebas();
+
+	int n, m;
+	cout << "Introduce el número total de elementos (n):"<<endl;
+	cin >> m;
+	cout << "Introduce el número de elementos en cada grupo (m):"<<endl;
+	cin >> n;
+	cout << "El número de combinaciones de "<<n<<" elementos ";
+	cout << "tomados de "<<m<<" en "<<m<<" es ";
+	cout << combinatorio(n, m)<<endl;
+
+	return 0;
+}

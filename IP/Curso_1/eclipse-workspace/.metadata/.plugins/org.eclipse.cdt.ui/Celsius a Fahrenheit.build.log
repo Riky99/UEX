@@ -1,0 +1,6 @@
+15:45:57 **** Incremental Build of configuration Debug for project Celsius a Fahrenheit ****
+make all 
+make: No se hace nada para 'all'.
+
+15:45:57 Build Finished. 0 errors, 0 warnings. (took 771ms)
+

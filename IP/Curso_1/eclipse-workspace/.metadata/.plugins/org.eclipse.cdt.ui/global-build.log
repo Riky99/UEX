@@ -1,0 +1,101 @@
+19:24:58 **** Build of configuration Debug for project SophieGermain ****
+make all 
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+Finished building: ../src/SophieGermain.cpp
+ 
+Building target: SophieGermain
+Invoking: GCC C++ Linker
+g++  -o "SophieGermain"  ./src/SophieGermain.o   
+Finished building target: SophieGermain
+ 
+19:25:22 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:26:53 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:27:26 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:31:14 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+Finished building: ../src/SophieGermain.cpp
+ 
+Building target: SophieGermain
+Invoking: GCC C++ Linker
+g++  -o "SophieGermain"  ./src/SophieGermain.o   
+Finished building target: SophieGermain
+ 
+19:31:25 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:36:35 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+Finished building: ../src/SophieGermain.cpp
+ 
+Building target: SophieGermain
+Invoking: GCC C++ Linker
+g++  -o "SophieGermain"  ./src/SophieGermain.o   
+Finished building target: SophieGermain
+ 
+19:52:21 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+../src/SophieGermain.cpp: In function ‘int cuantos(int, int)’:
+../src/SophieGermain.cpp:109:8: error: expected primary-expression before ‘)’ token
+  109 |   for () {
+      |        ^
+../src/SophieGermain.cpp:112:2: error: expected primary-expression before ‘return’
+  112 |  return true;
+      |  ^~~~~~
+../src/SophieGermain.cpp:111:4: error: expected ‘;’ before ‘return’
+  111 |   }
+      |    ^
+      |    ;
+  112 |  return true;
+      |  ~~~~~~
+../src/SophieGermain.cpp:112:2: error: expected primary-expression before ‘return’
+  112 |  return true;
+      |  ^~~~~~
+../src/SophieGermain.cpp:111:4: error: expected ‘)’ before ‘return’
+  111 |   }
+      |    ^
+      |    )
+  112 |  return true;
+      |  ~~~~~~
+../src/SophieGermain.cpp:109:7: note: to match this ‘(’
+  109 |   for () {
+      |       ^
+make: *** [src/subdir.mk:20: src/SophieGermain.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:52:48 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+Finished building: ../src/SophieGermain.cpp
+ 
+Building target: SophieGermain
+Invoking: GCC C++ Linker
+g++  -o "SophieGermain"  ./src/SophieGermain.o   
+Finished building target: SophieGermain
+ 
+19:54:15 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:54:41 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.
+19:56:38 **** Incremental Build of configuration Debug for project SophieGermain ****
+make all 
+make: No se hace nada para 'all'.

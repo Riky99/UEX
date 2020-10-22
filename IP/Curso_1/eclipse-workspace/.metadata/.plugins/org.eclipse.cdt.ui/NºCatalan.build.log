@@ -1,0 +1,6 @@
+20:52:01 **** Incremental Build of configuration Debug for project NºCatalan ****
+make all 
+make: No se hace nada para 'all'.
+
+20:52:02 Build Finished. 0 errors, 0 warnings. (took 893ms)
+
