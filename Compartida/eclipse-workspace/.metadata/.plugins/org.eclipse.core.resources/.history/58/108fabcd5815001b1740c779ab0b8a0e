@@ -1,0 +1,96 @@
+//============================================================================
+// Name        : progr_geometrica.cpp
+// Author      : Ricardo Lucas Fernández
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int potencia_a(int a);
+int potencia_b(int b);
+
+int potencia_a(int a) {
+
+	int n;
+	int i;
+	long long int resultado2;
+
+	n = a;
+
+	for (i=0; i<=n; i++){
+
+		int resultado1 = 1;
+
+		if (i==0){
+
+			resultado1 = 1;
+			cout << resultado1 << ", " << endl;
+
+		}
+
+		else{
+
+			resultado1 = resultado1 * 2;
+			resultado2 = resultado1 + potencia_a(n-1);
+			cout << resultado2 << ", " << endl;
+		}
+	}
+
+	return resultado2;
+
+}
+
+int potencia_b(int b) {
+
+
+	int i;
+
+	long long int resultado4;
+
+	for (i=0; i<=b; i++){
+
+		int resultado3;
+
+		if (i==0){
+
+			resultado3 = 1;
+		}
+
+		else{
+
+			resultado3 = resultado3 * 2;
+			resultado4 = resultado3 + (potencia_b((b-1) +1) -1);
+
+		}
+	}
+	return resultado4;
+
+}
+
+int main() {
+
+	int a;
+	int b;
+
+	cout << "Introduzca el limite inferior del rango: ";
+			cin >> a;
+	cout << "Introduzca el limite superior del rango: ";
+				cin >> b;
+
+
+	if (a >= b) {
+		cout << "EL rango introducido es incorrecto ";
+	}
+	else {
+		potencia_a(a);
+	}
+
+}
+
+
+
+
+

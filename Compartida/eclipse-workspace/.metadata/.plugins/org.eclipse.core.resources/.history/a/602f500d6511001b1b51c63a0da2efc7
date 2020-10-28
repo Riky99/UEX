@@ -1,0 +1,119 @@
+//============================================================================
+// Name        : Nº_Catalan.cpp
+// Author      : Ricardo Lucas Fernández
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+// PRE: {n > 0}
+// POS: Calculo del numero de catalan de un número entero no negativo
+// POS: {
+	// C (0) = 1
+	// C (n) = (2*n*(n-1)!) / ( (n*(n-1)!) * ((n+1) * (n-1)! )
+//}
+
+long int factorial1 (int);
+long int factorial2 (int);
+long int factorial3 (int);
+long int catalan (int, int);
+
+int main() {
+
+	long long int numero1;
+	long long int numero2;
+	long long int n1, n2, n3;
+
+	cout << "Números de Catalan" <<endl;
+	cout << "Dime un extremo del rango: " <<endl;
+			cin >> numero1;
+	cout << "Dime el otro extremo del rango: " <<endl;
+			cin >> numero2;
+
+	factorial1(n1);
+	factorial2(n2);
+	factorial3(n3);
+	catalan(numero1, numero2);
+
+}
+
+int factorial1(int n1) {
+
+	long long int f;
+	long long int i;
+	f = 1;
+
+	for (i=1; i<=n1; i++) {
+
+		f = 2 * f * i;
+		i = i + 1;
+	}
+
+	return f;
+}
+
+int factorial2 (int n2) {
+
+	long long int f;
+	long long int i;
+	f = 1;
+
+	for (i=1; i<=n2; i++) {
+
+		f = f * i;
+		i = i + 1;
+	}
+
+	return f;
+}
+
+int factorial3 (int n3){
+
+	long long int f;
+	long long int i;
+	f = 1;
+
+	for (i=1; i<=n3; i++) {
+
+		f = (f + 1) * i;
+		i = i + 1;
+	}
+
+	return f;
+
+}
+
+int catalan(int numero1, int numero2) {
+
+	long long int n;
+	long long int i;
+	long long int resultado;
+
+	n = numero1;
+
+	for(i=0; n<=numero2; i++){
+
+		if (numero1 == 0) {
+			cout << "El número " << 0 << " de Catalan es " << 1 <<endl;
+
+		}
+
+		else {
+			resultado = n1 / (n2 * n3);
+			cout << "El número " << i << " de Catalan es " << resultado <<endl;
+
+		}
+
+	}
+
+	return resultado;
+
+}
+
+
+
+
+

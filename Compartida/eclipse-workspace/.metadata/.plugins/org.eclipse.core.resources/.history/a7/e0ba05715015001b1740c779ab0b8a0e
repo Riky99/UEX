@@ -1,0 +1,68 @@
+//============================================================================
+// Name        : progr_geometrica.cpp
+// Author      : Ricardo Lucas Fernández
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int potencia_a(int n);
+int potencia_b(int n);
+
+int potencia_a(int n) {
+
+	int i;
+	long long int resultado2;
+	for (i=0; i<=n; i++){
+
+		int resultado1;
+
+		if (i==0){
+
+			resultado1 = 1;
+		}
+
+		else{
+
+			resultado1 = resultado1 * 2;
+			resultado2 = resultado1 + potencia_a(n);
+		}
+	}
+
+	return resultado2;
+	cout << resultado2 << endl;
+}
+
+int potencia_b(int n) {
+
+	int i;
+	long long int resultado2;
+	long long int resultado3;
+
+	for (i=0; i<=n; i++){
+
+		int resultado1;
+
+		if (i==0){
+
+			resultado1 = 1;
+		}
+
+		else{
+
+			resultado1 = resultado1 * 2;
+			resultado3 = resultado1 + (potencia_b(n+1) -1);
+
+		}
+	}
+	return resultado3;
+
+}
+
+
+
+
+

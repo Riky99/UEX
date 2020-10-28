@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : progr_geometrica.cpp
+// Author      : Ricardo Lucas Fernández
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int potencia(int n);
+
+int potencia(int n) {
+
+	int i;
+	while (i=0; i<=n; i++) {
+
+		int resultado1;
+		if (i=0){
+
+			resultado1=1;
+		}
+		else{
+
+
+		}
+	}
+
+	return 0;
+}

@@ -1,0 +1,170 @@
+20:20:33 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:20:37 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:21:37 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:22:00 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:22:15 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:23:00 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:30:39 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int main()’:
+../src/progr_geometrica.cpp:80:2: warning: ‘b’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (a > b) {
+  ^~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:31:22 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:36:28 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado2’ is used uninitialized in this function [-Wuninitialized]
+  return resultado2;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:36:48 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+make: No se hace nada para 'all'.
+20:37:36 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado2’ is used uninitialized in this function [-Wuninitialized]
+  return resultado2;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:38:46 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:39:48 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+20:44:29 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:39:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+21:14:38 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+21:19:24 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int, int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
