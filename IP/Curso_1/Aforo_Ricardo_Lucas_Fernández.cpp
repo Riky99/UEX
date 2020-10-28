@@ -31,7 +31,7 @@ int main() {
 
 		result_aforo = (por_max * n_plazas) / 100;
 
-		plazas_sobran = result_aforo - n_estudiantes;
+		
 
 		plazas_faltan = n_estudiantes - result_aforo;
 
