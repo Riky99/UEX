@@ -1,0 +1,19 @@
+21:19:24 **** Incremental Build of configuration Debug for project progr_geometrica ****
+make all 
+Building file: ../src/progr_geometrica.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/progr_geometrica.d" -MT"src/progr_geometrica.o" -o "src/progr_geometrica.o" "../src/progr_geometrica.cpp"
+../src/progr_geometrica.cpp: In function ‘int potencia_a(int, int)’:
+../src/progr_geometrica.cpp:38:9: warning: ‘resultado1’ is used uninitialized in this function [-Wuninitialized]
+  return resultado1;
+         ^~~~~~~~~~
+Finished building: ../src/progr_geometrica.cpp
+ 
+Building target: progr_geometrica
+Invoking: GCC C++ Linker
+g++  -o "progr_geometrica"  ./src/progr_geometrica.o   
+Finished building target: progr_geometrica
+ 
+
+21:19:26 Build Finished. 0 errors, 1 warnings. (took 1s.46ms)
+

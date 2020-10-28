@@ -1,0 +1,18 @@
+20:13:41 **** Incremental Build of configuration Debug for project pruebafactorial ****
+make all 
+Building file: ../src/pruebafactorial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pruebafactorial.d" -MT"src/pruebafactorial.o" -o "src/pruebafactorial.o" "../src/pruebafactorial.cpp"
+../src/pruebafactorial.cpp: In function ‘int main()’:
+../src/pruebafactorial.cpp:15:2: error: expected initializer before ‘return’
+  return 0;
+  ^~~~~~
+../src/pruebafactorial.cpp:14:6: warning: unused variable ‘numero’ [-Wunused-variable]
+  int numero, factorial
+      ^~~~~~
+src/subdir.mk:18: recipe for target 'src/pruebafactorial.o' failed
+make: *** [src/pruebafactorial.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+20:13:42 Build Failed. 3 errors, 1 warnings. (took 1s.9ms)
+
