@@ -1,0 +1,15 @@
+19:55:44 **** Incremental Build of configuration Debug for project persistencia ****
+make all 
+Building file: ../src/persistencia.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/persistencia.d" -MT"src/persistencia.o" -o "src/persistencia.o" "../src/persistencia.cpp"
+Finished building: ../src/persistencia.cpp
+ 
+Building target: persistencia
+Invoking: GCC C++ Linker
+g++  -o "persistencia"  ./src/persistencia.o   
+Finished building target: persistencia
+ 
+
+19:55:45 Build Finished. 0 errors, 0 warnings. (took 1s.275ms)
+

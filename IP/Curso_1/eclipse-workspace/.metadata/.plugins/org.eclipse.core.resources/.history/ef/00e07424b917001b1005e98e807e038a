@@ -1,0 +1,155 @@
+//============================================================================
+// Name        : Persistencia.cpp
+// Author      : Profesores de la asignatura IP/FP
+// Version     : Curso 2020/2021
+// Copyright   :
+// Description : Persistencia iterativa y recursiva
+//============================================================================
+
+#include <iostream>
+using namespace std;
+/*
+ * PRE = {}
+ * POST = {}
+ */
+int productoDigitos (int n){
+	int  result;
+	result = 1;
+	while (n >=10){
+		result = result * (n%10);
+		n = n /10;
+	}
+	result = result * n;
+	return result;
+
+}
+/*
+ * PRE = {}
+ * implementación recursiva
+ * POST = {}
+ */
+int productoDigitosR (int n){
+
+    // TODO implementar
+	return -1;
+
+}
+/*
+ * Diseño de las pruebas
+ *  n        salida
+ *  ____________________
+ *   3          3
+ *  24          8
+ *  64         24
+ *  88         64
+ *  253        30
+ */
+void pruebaProductoDigitos(){
+	cout << "--> Inicio pruebas productoDígitos iterativo"<<endl;
+	if( productoDigitos(3) != 3)
+		cout<<" ERROR: caso 3"<<endl;
+	if( productoDigitos(24) != 8)
+		cout<<" ERROR: caso 24"<<endl;
+	if( productoDigitos(64) != 24)
+		cout<<" ERROR: caso 64"<<endl;
+	if( productoDigitos(88) != 64)
+		cout<<" ERROR: caso 88"<<endl;
+	if( productoDigitos(253)!= 30 )
+		cout<<" ERROR: caso 253"<<endl;
+	cout << "--> Fin pruebas productoDígitos iterativo"<<endl;
+
+}
+
+void pruebaProductoDigitosR(){
+	cout << "--> Inicio pruebas productoDígitos recursivo"<<endl;
+	if( productoDigitos(3) != productoDigitosR(3))
+		cout<<" ERROR: caso 3"<<endl;
+	if( productoDigitos(24) != productoDigitosR(24))
+		cout<<" ERROR: caso 24"<<endl;
+	if( productoDigitos(64) != productoDigitosR(64))
+		cout<<" ERROR: caso 64"<<endl;
+	if( productoDigitos(88) != productoDigitosR(88))
+		cout<<" ERROR: caso 88"<<endl;
+	if( productoDigitos(253) != productoDigitosR(253))
+		cout<<" ERROR: caso 253"<<endl;
+	cout << "--> Fin pruebas productoDígitos recursivo"<<endl;
+
+}
+/*
+ * PRE = {}
+ * POST = {}
+ */
+int persistencia (int n){
+
+	int pasos;
+	pasos = 0;
+	while (n >= 10){
+		n = productoDigitos(n);
+		pasos ++;
+	}
+	return pasos;
+}
+
+/*
+ * PRE = {}
+ * implementación recursiva
+ * POST = {}
+ */
+int persistenciaR (int n){
+	// TODO implementar
+	return -1;
+}
+/*
+* Diseño de las pruebas
+*    n        salida
+*_____________________
+*     3        0
+*    24        1
+*    64	       2
+*    88        3
+*   253        2
+*
+*/
+void pruebaPersistencia(){
+	cout << "--> Inicio pruebas persistencia iterativa"<<endl;
+	if (persistencia(3) != 0)
+		cout<<" ERROR: caso 3"<<endl;
+	if (persistencia(24) != 1)
+		cout<<" ERROR: caso 24"<<endl;
+	if (persistencia(64) != 2)
+		cout<<" ERROR: caso 64"<<endl;
+	if (persistencia(88) != 3)
+		cout<<" ERROR: caso 88"<<endl;
+	if (persistencia(253)!= 2)
+		cout<<" ERROR: caso 253"<<endl;
+	cout << "--> Fin pruebas persistencia iterativa"<<endl;
+}
+void pruebaPersistenciaR(){
+	cout << "--> Inicio pruebas persistencia recursiva"<<endl;
+	if (persistencia(3) != persistenciaR(3))
+		cout<<" ERROR: caso 3"<<endl;
+	if (persistencia(24) != persistenciaR(24))
+		cout<<" ERROR: caso 24"<<endl;
+	if (persistencia(64) != persistenciaR(64))
+		cout<<" ERROR: caso 64"<<endl;
+	if (persistencia(88) != persistenciaR(88))
+		cout<<" ERROR: caso 88"<<endl;
+	if (persistencia(253)!= persistenciaR(253))
+		cout<<" ERROR: caso 253"<<endl;
+	cout << "--> Fin pruebas persistencia recursiva"<<endl;
+}
+
+void pruebas(){
+	cout <<"INICIO PRUEBAS"<<endl;
+	pruebaProductoDigitos();
+	pruebaProductoDigitosR();
+	pruebaPersistencia();
+	pruebaPersistenciaR();
+	cout <<"FIN PRUEBAS"<<endl;
+}
+int main() {
+
+	pruebas();
+
+	return 0;
+}

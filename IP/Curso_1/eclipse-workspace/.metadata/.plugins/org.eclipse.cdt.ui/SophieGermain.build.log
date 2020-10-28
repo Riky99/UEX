@@ -1,6 +1,15 @@
-19:56:38 **** Incremental Build of configuration Debug for project SophieGermain ****
+18:40:26 **** Build of configuration Debug for project SophieGermain ****
 make all 
-make: No se hace nada para 'all'.
+Building file: ../src/SophieGermain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
+Finished building: ../src/SophieGermain.cpp
+ 
+Building target: SophieGermain
+Invoking: GCC C++ Linker
+g++  -o "SophieGermain"  ./src/SophieGermain.o   
+Finished building target: SophieGermain
+ 
 
-19:56:39 Build Finished. 0 errors, 0 warnings. (took 844ms)
+18:40:28 Build Finished. 0 errors, 0 warnings. (took 1s.612ms)
 

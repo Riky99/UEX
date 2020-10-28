@@ -1,101 +1,90 @@
-19:24:58 **** Build of configuration Debug for project SophieGermain ****
+22:24:56 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-Building file: ../src/SophieGermain.cpp
+Building file: ../src/ecuacion_2grado.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
-Finished building: ../src/SophieGermain.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
  
-Building target: SophieGermain
+Building target: ecuacion_2grado
 Invoking: GCC C++ Linker
-g++  -o "SophieGermain"  ./src/SophieGermain.o   
-Finished building target: SophieGermain
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
  
-19:25:22 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:25:04 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
 make: No se hace nada para 'all'.
-19:26:53 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:26:00 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-make: No se hace nada para 'all'.
-19:27:26 **** Incremental Build of configuration Debug for project SophieGermain ****
-make all 
-make: No se hace nada para 'all'.
-19:31:14 **** Incremental Build of configuration Debug for project SophieGermain ****
-make all 
-Building file: ../src/SophieGermain.cpp
+Building file: ../src/ecuacion_2grado.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
-Finished building: ../src/SophieGermain.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
  
-Building target: SophieGermain
+Building target: ecuacion_2grado
 Invoking: GCC C++ Linker
-g++  -o "SophieGermain"  ./src/SophieGermain.o   
-Finished building target: SophieGermain
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
  
-19:31:25 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:28:32 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-make: No se hace nada para 'all'.
-19:36:35 **** Incremental Build of configuration Debug for project SophieGermain ****
-make all 
-Building file: ../src/SophieGermain.cpp
+Building file: ../src/ecuacion_2grado.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
-Finished building: ../src/SophieGermain.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
  
-Building target: SophieGermain
+Building target: ecuacion_2grado
 Invoking: GCC C++ Linker
-g++  -o "SophieGermain"  ./src/SophieGermain.o   
-Finished building target: SophieGermain
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
  
-19:52:21 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:29:58 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-Building file: ../src/SophieGermain.cpp
+Building file: ../src/ecuacion_2grado.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
-../src/SophieGermain.cpp: In function ‘int cuantos(int, int)’:
-../src/SophieGermain.cpp:109:8: error: expected primary-expression before ‘)’ token
-  109 |   for () {
-      |        ^
-../src/SophieGermain.cpp:112:2: error: expected primary-expression before ‘return’
-  112 |  return true;
-      |  ^~~~~~
-../src/SophieGermain.cpp:111:4: error: expected ‘;’ before ‘return’
-  111 |   }
-      |    ^
-      |    ;
-  112 |  return true;
-      |  ~~~~~~
-../src/SophieGermain.cpp:112:2: error: expected primary-expression before ‘return’
-  112 |  return true;
-      |  ^~~~~~
-../src/SophieGermain.cpp:111:4: error: expected ‘)’ before ‘return’
-  111 |   }
-      |    ^
-      |    )
-  112 |  return true;
-      |  ~~~~~~
-../src/SophieGermain.cpp:109:7: note: to match this ‘(’
-  109 |   for () {
-      |       ^
-make: *** [src/subdir.mk:20: src/SophieGermain.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:52:48 **** Incremental Build of configuration Debug for project SophieGermain ****
-make all 
-Building file: ../src/SophieGermain.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SophieGermain.d" -MT"src/SophieGermain.o" -o "src/SophieGermain.o" "../src/SophieGermain.cpp"
-Finished building: ../src/SophieGermain.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
  
-Building target: SophieGermain
+Building target: ecuacion_2grado
 Invoking: GCC C++ Linker
-g++  -o "SophieGermain"  ./src/SophieGermain.o   
-Finished building target: SophieGermain
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
  
-19:54:15 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:30:26 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
 make: No se hace nada para 'all'.
-19:54:41 **** Incremental Build of configuration Debug for project SophieGermain ****
+22:35:14 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-make: No se hace nada para 'all'.
-19:56:38 **** Incremental Build of configuration Debug for project SophieGermain ****
+Building file: ../src/ecuacion_2grado.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
+ 
+Building target: ecuacion_2grado
+Invoking: GCC C++ Linker
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
+ 
+22:36:46 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
-make: No se hace nada para 'all'.
+Building file: ../src/ecuacion_2grado.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
+ 
+Building target: ecuacion_2grado
+Invoking: GCC C++ Linker
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
+ 
+22:38:02 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
+make all 
+Building file: ../src/ecuacion_2grado.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
+Finished building: ../src/ecuacion_2grado.cpp
+ 
+Building target: ecuacion_2grado
+Invoking: GCC C++ Linker
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
+ 

@@ -1,21 +1,15 @@
-15:45:59 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
+22:38:02 **** Incremental Build of configuration Debug for project ecuacion_2grado ****
 make all 
 Building file: ../src/ecuacion_2grado.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ecuacion_2grado.d" -MT"src/ecuacion_2grado.o" -o "src/ecuacion_2grado.o" "../src/ecuacion_2grado.cpp"
-../src/ecuacion_2grado.cpp: In function ‘float ecuacion2Grado_p(float, float, float)’:
-../src/ecuacion_2grado.cpp:18:19: error: ‘sqrt’ was not declared in this scope
-   18 |  positivo = (-b + sqrt(raiz_cuadrada_p))/(2*a);
-      |                   ^~~~
-../src/ecuacion_2grado.cpp: In function ‘float ecuacion2Grado_n(float, float, float)’:
-../src/ecuacion_2grado.cpp:28:17: error: ‘sqrt’ was not declared in this scope
-   28 |  negativo = (-b-sqrt(b*b-4*a*c))/(2*a);
-      |                 ^~~~
-../src/ecuacion_2grado.cpp:26:8: warning: unused variable ‘raiz_cuadrada_p’ [-Wunused-variable]
-   26 |  float raiz_cuadrada_p = b*b-4*a*c;
-      |        ^~~~~~~~~~~~~~~
-make: *** [src/subdir.mk:20: src/ecuacion_2grado.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
+Finished building: ../src/ecuacion_2grado.cpp
+ 
+Building target: ecuacion_2grado
+Invoking: GCC C++ Linker
+g++  -o "ecuacion_2grado"  ./src/ecuacion_2grado.o   
+Finished building target: ecuacion_2grado
+ 
 
-15:46:00 Build Failed. 3 errors, 1 warnings. (took 1s.118ms)
+22:38:04 Build Finished. 0 errors, 0 warnings. (took 1s.371ms)
 

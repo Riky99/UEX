@@ -7,15 +7,28 @@
 //============================================================================
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 float ecuacion2Grado_p (float a, float b, float c) {
 
-	float raiz_cuadrada_p = b*b-4*a*c;
-
 	float positivo;
 
-	positivo = (-b + sqrt(raiz_cuadrada_p))/(2*a);
+	float datos;
+
+	datos = (b*b)-(4*a*c);
+
+	if (datos >= 0) {
+
+		positivo = (-b + sqrt(datos)) / 2 * a;
+
+	} else {
+
+		cout << "La raiz es negativa. "<<endl;
+
+	}
+
+
 
 	return positivo;
 
@@ -23,23 +36,28 @@ float ecuacion2Grado_p (float a, float b, float c) {
 
 float ecuacion2Grado_n (float a, float b, float c) {
 
-	float raiz_cuadrada_p = b*b-4*a*c;
 	float negativo;
-	negativo = (-b-sqrt(b*b-4*a*c))/(2*a);
+
+	float datos = (b*b) - (4*a*c);
+
+	if (datos > 0) {
+
+		negativo = (-b - sqrt(datos)) / 2 * a;
+
+	} else {
+
+		cout << "La raiz es negativa. "<<endl;
+	}
+
 	return negativo;
 
 }
-
-
-
 
 int main() {
 
 	float a;
 	float b;
 	float c;
-	float resultado1;
-	float resultado2;
 
 	cout << "Programa que calcule las raices de una ecuación de 2ªgrado: "<<endl;
 
@@ -52,7 +70,8 @@ int main() {
 	cout << "Introduce el valor de c: "<<endl;
 	cin >> c;
 
-	resultado1 = ecuacion2Grado_p (a,b,c);
-	resultado2 = ecuacion2Grado_n (a,b,c);
+
+	cout << "Raiz 1 es : " << ecuacion2Grado_p (a,b,c) <<endl;
+	cout << "Raiz 2 es : " << ecuacion2Grado_n (a,b,c) <<endl;
 }
 

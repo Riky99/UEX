@@ -12,9 +12,12 @@
 			<item value="/home/rikyub/eclipse-workspace/circunferencia"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/home/rikyub/eclipse-workspace/Sesión 05-20201026/persistencia.tar.gz"/>
+			<item value="/home/rikyub/eclipse-workspace/Sesión 05-20201026/combinatorio2.tar.gz"/>
+			<item value="/home/rikyub/Escritorio/combinatorio (1).tar.gz"/>
+			<item value="/home/rikyub/eclipse-workspace/combinatorio.tar.gz"/>
 			<item value="/home/rikyub/eclipse-workspace/SophieGermain.zip"/>
 			<item value="/home/rikyub/eclipse-workspace/parametros.tar.gz"/>
-			<item value="/home/rikyub/eclipse-workspace/combinatorio.tar.gz"/>
 			<item value="/home/rikyub/eclipse-workspace/raices.zip"/>
 			<item value="/home/rikyub/eclipse-workspace/factorial.zip"/>
 			<item value="/home/rikyub/eclipse-workspace/Sesión 02-20200928/funciones.tar.gz"/>
@@ -28,5 +31,7 @@
 		<item key="DIALOG_WIDTH" value="569"/>
 		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>
