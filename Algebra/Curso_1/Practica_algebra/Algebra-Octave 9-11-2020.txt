@@ -1,0 +1,110 @@
+>> A = [2 5 1; 3 4 1; 5 9 2];
+>> rank(A)
+ans =  2
+>> C = [2 5 1; 3 4 1; 1 -1 0];
+>> rank(A)
+ans =  2
+>> rank(C)
+ans =  2
+>> D = [2 5 1; 3 4 1; 2 -3 1];
+>> rank(D)
+ans =  3
+>> # no pertenece, porque al meter el vector (2,-3,1) en la tercera fila
+>> # el rank cambia
+>> #por lo tanto son linealmente independientes.
+>>
+>> #Otra forma de encountrar si n pertenece a F es comprobar que las ecuaciones
+>> #Otra forma de encountrar si n pertenece a F es calcular las ecuaciones implici
+tas de
+>> # de F y comprobar si n las verifica
+>> #para las implicitas se passa por las parametricas
+>>
+>> # Y se eliminan parametros
+>>
+>> # Valores del parametro a tal que el siguiente conjunto: B
+>> #B = {a, 1, 0}, {3, a, 1}, {0, 1,a}. # Estamos en R3
+>>
+>> # basta con comprobar para que valores de a el conjunto B es linealmente independiente
+>>
+>> #poner como fila de una matriz.
+>>
+>> #B = [a 1 0; 1 a 1, 0 1 a];
+>>
+>> #Cuando hay parametros no se multiplica por el parametro la fila que se sustituye
+>>
+>> # Determinante de |B| = a^3 - 2*a
+>>
+>> #B es una base de R3 para todo a perteneciente a R tal que a distinto de 0, a distinto de sqrt(2)
+>>
+>> #Ejercicio 6
+>>
+>> #Valores de a y b pertenecientes a R, tal que u = {2, a, 3, -5}, pertenecen a G
+>> # G= <(2,3,1,-5), (0,2,-1,3)> , estamos en R4
+>> #Una base de G es B= {u1, u2}
+>>
+>> # u = alfa*u1 + beta*u2
+>>
+>> #
+Display all 1748 possibilities? (y or n)
+>>
+>> #matriz asoaciada
+>>
+>> E= [2 a 2; 3 2 a; 1 1 3; -3 3 -5]
+error: 'a' undefined near line 1 column 8
+>> a = 2
+a =  2
+>> E= [2 a 2; 3 2 a; 1 1 3; -3 3 -5]
+E =
+
+   2   2   2
+   3   2   2
+   1   1   3
+  -3   3  -5
+
+>> rank(E)
+ans =  3
+>> E= [2 0 2; 3 2 a; 1 1 3; -3 3 -5]
+E =
+
+   2   0   2
+   3   2   2
+   1   1   3
+  -3   3  -5
+
+>> rank(E)
+ans =  3
+>> a = 0
+a = 0
+>> E= [2 0 2; 3 2 a; 1 1 3; -3 3 -5]
+E =
+
+   2   0   2
+   3   2   0
+   1   1   3
+  -3   3  -5
+
+>> rank(E)
+ans =  3
+>> pkg load symbolic
+>> syms a b
+Symbolic pkg v2.9.0: Python communication link active, SymPy v1.5.1.
+>> [][]23
+parse error:
+
+  syntax error
+
+>>> [][]23
+      ^
+
+>> 32354
+ans =  32354
+>> 65765
+ans =  65765
+>> F= [2 0 2]; [3 2 a]; [-5 3 -b]
+ans = (sym) [-5  3  -b]  (1x3 matrix)
+>>
+>> #Calculamos la ecuaciones implicitas de G y vemos que valores de a y b del vector u las verifica
+>>
+>> syms x y z c
+>> G = [x 0 2]; [3 2 a]; [X 3 -b]
+?
