@@ -1,0 +1,134 @@
+>> #Ejercicio8.
+>>
+>> #f:R^3 -> f(x,y,z) = (x + y, y+3z)
+>> #A=A_BcBc (f)
+>> A = [1 0; 1 1; 0 3]'
+A =
+
+   1   1   0
+   0   1   3
+
+>> #el apostrofe es para calcular la traspuesta
+>>
+>> # La matriz asosciada a f en las bases cannnnicas de R2 y R3
+>> #b)
+>> #b) u = (1, 2, 4)
+>> A * [1 2 4]'
+ans =
+
+    3
+   14
+
+>> #Estas spn las coordenadas de f(u) en la base canonica R2 son {3, 14}
+>>
+>> #d)
+>>
+>> P = [1 1 1; 0 1 -1; 1 0 0]'
+P =
+
+   1   0   1
+   1   1   0
+   1  -1   0
+
+>> P = [1 1 1; 0 1 -1; 1 0 0]
+P =
+
+   1   1   1
+   0   1  -1
+   1   0   0
+
+>> C = A * P
+C =
+
+   1   2   0
+   3   1  -1
+
+>> #Es la matriz asociad a f en la base de R1 de R3 y la base can canonica de R2.
+>>
+>> #d) Q = [1 2; 0 1]'
+>> Q = [1 2; 0 1]'
+Q =
+
+   1   0
+   2   1
+
+>> #Q es la matriz de cambio de base de R2 a la base canonica de R2
+>> D= inv(Q) * A
+D =
+
+   1   1   0
+  -2  -1   3
+
+>> # La matriz asociada a f en la base canonica de R3 y la base de B2 de R2
+>>
+>> #d)
+>> E = inv(Q) * A * P
+E =
+
+   1   2   0
+   1  -3  -1
+
+>> #La matriz asociada a f en la base B1 e R3 y la base B2 de R2.
+>>
+>> #f) Calcula las coordenadas del vector f(u) en la base B2 de R2 usando la matriz E anterior.
+>> # u= (u1 + 2u2 + 3u3)
+>> #B1 = {u1, u2, u3}
+>> #u = (1, 2, 3)B1 f
+Display all 1755 possibilities? (y or n)
+>> #u = (1, 2, 3)B1 f
+Display all 1755 possibilities? (y or n)
+>> #u = (1, 2, 3)B1
+>> E*[1 2 3]'
+ans =
+
+   5
+  -8
+
+>> #Las coordenadas de f(u) en la base de B2 de R2 son [7, -14 ('5, -8')]
+>> #Es f una aplicacion inyectada? 'Viendo si el nucleo es 0'
+>> #dim(Im(f)) = rank(f) = rank(A)
+>> #El rango de una aplicacion f es independiente de las bases que se consideren para calcular la matriz asociada a
+f. Es decir, estas matriz tendran el mismo rango que es precisamente la dimension del subespacion imagen Im(f).
+>>
+>> #El rank(A) es 2
+>> #dim(Im(f)) = rank(f) = rank(A) = 2
+>> #por tanto la la dim del nucleo es 1
+>> #y por tanto la aplicacion no es inyectiva ya que el nucleo de f no es el subespacio 0.
+>> # Ker(f) =! 0
+>> # Es f una aplicacion sobreyectiva ? si, porque la dim del subespacio imagen es la de llegada
+>> #dim(Im(f)) = dim(R2) = 2, asi que Im(f) = R2
+>> #no es un isomorfismo
+>> #Calcular el nucleo de f Ker(f)
+Display all 1755 possibilities? (y or n)
+>> #Calcular el nucleo de f Ker(f)?
+>>
+>> A
+A =
+
+   1   1   0
+   0   1   3
+
+>> rref(A)
+ans =
+
+   1   0  -3
+   0   1   3
+
+>> #El Sistema es Compatible Indeterminado que depende de 1-parametros
+>> #Las soluciones son:
+>> #z = a
+>> #y = -3a
+>> #x=3a
+>> #Para todo a perteneciente a R.
+>> #Estas son las ecuaciones parametricas de Ker(f)
+>> #Una base de Ker(f): [{3, -3, 1}]
+>>
+>> #Un vector no nulo cuya imagen por f es nula es por ejemplo: {6 ,-6, 2}
+>> #Una base del subespacio Im(f)
+>> A
+A =
+
+   1   1   0
+   0   1   3
+
+>> #Una base es [{1, 0,}, {1,1}]
